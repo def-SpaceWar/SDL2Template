@@ -24,9 +24,7 @@ void gameLoop()
         }
 
         window.clear();
-
         window.render(blockTexture);
-
         window.display();
 
         if (r < 255 && g < 255 && b < 255)
@@ -54,6 +52,5 @@ void gameLoop()
 int main()
 {
     std::cout << "Hello SDL!!" << std::endl;
-
     gameLoop();
 }
